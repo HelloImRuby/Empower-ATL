@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD26A8532A4A1DFF00B4E431 /* donateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD26A8522A4A1DFF00B4E431 /* donateView.swift */; };
 		BD33780A2A4A184C00B788C5 /* Empower_ATLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3378092A4A184C00B788C5 /* Empower_ATLApp.swift */; };
 		BD33780C2A4A184C00B788C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33780B2A4A184C00B788C5 /* ContentView.swift */; };
 		BD33780E2A4A184D00B788C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD33780D2A4A184D00B788C5 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		BD33781B2A4A184D00B788C5 /* Empower_ATLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33781A2A4A184D00B788C5 /* Empower_ATLTests.swift */; };
 		BD3378252A4A184D00B788C5 /* Empower_ATLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3378242A4A184D00B788C5 /* Empower_ATLUITests.swift */; };
 		BD3378272A4A184D00B788C5 /* Empower_ATLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3378262A4A184D00B788C5 /* Empower_ATLUITestsLaunchTests.swift */; };
+		BD5C1C8D2A4B29F8003712AD /* volEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5C1C8C2A4B29F8003712AD /* volEnvironment.swift */; };
+		BD83ADFD2A4B163B00291007 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83ADFC2A4B163B00291007 /* SwiftUIView.swift */; };
+		BD83ADFF2A4B166600291007 /* volView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD83ADFE2A4B166600291007 /* volView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD26A8522A4A1DFF00B4E431 /* donateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donateView.swift; sourceTree = "<group>"; };
 		BD3378062A4A184C00B788C5 /* Empower ATL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Empower ATL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3378092A4A184C00B788C5 /* Empower_ATLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empower_ATLApp.swift; sourceTree = "<group>"; };
 		BD33780B2A4A184C00B788C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,9 @@
 		BD3378202A4A184D00B788C5 /* Empower ATLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Empower ATLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3378242A4A184D00B788C5 /* Empower_ATLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empower_ATLUITests.swift; sourceTree = "<group>"; };
 		BD3378262A4A184D00B788C5 /* Empower_ATLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empower_ATLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD5C1C8C2A4B29F8003712AD /* volEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volEnvironment.swift; sourceTree = "<group>"; };
+		BD83ADFC2A4B163B00291007 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		BD83ADFE2A4B166600291007 /* volView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,9 @@
 		BD3377FD2A4A184C00B788C5 = {
 			isa = PBXGroup;
 			children = (
+				BD83ADFE2A4B166600291007 /* volView.swift */,
+				BD5C1C8C2A4B29F8003712AD /* volEnvironment.swift */,
+				BD83ADFC2A4B163B00291007 /* SwiftUIView.swift */,
 				BD3378082A4A184C00B788C5 /* Empower ATL */,
 				BD3378192A4A184D00B788C5 /* Empower ATLTests */,
 				BD3378232A4A184D00B788C5 /* Empower ATLUITests */,
@@ -96,6 +107,7 @@
 			children = (
 				BD3378092A4A184C00B788C5 /* Empower_ATLApp.swift */,
 				BD33780B2A4A184C00B788C5 /* ContentView.swift */,
+				BD26A8522A4A1DFF00B4E431 /* donateView.swift */,
 				BD33780D2A4A184D00B788C5 /* Assets.xcassets */,
 				BD33780F2A4A184D00B788C5 /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5C1C8D2A4B29F8003712AD /* volEnvironment.swift in Sources */,
+				BD26A8532A4A1DFF00B4E431 /* donateView.swift in Sources */,
 				BD33780C2A4A184C00B788C5 /* ContentView.swift in Sources */,
+				BD83ADFD2A4B163B00291007 /* SwiftUIView.swift in Sources */,
 				BD33780A2A4A184C00B788C5 /* Empower_ATLApp.swift in Sources */,
+				BD83ADFF2A4B166600291007 /* volView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
